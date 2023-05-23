@@ -1,0 +1,154 @@
+
+
+header{
+    display: flex;
+    gap: 2%;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    height: 60px;
+    padding: 10px;
+    background-color: #DDB892;
+}
+header img{
+    width: 20%;
+}
+header h1{
+    font-size:-webkit-xxx-large;
+    width: 70%;
+    font-family: 'Courgette', cursive;
+    color: #7F5539;
+}
+
+.containerEncriptador{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 2%;
+    background-color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 5%;
+}
+.container_ta{
+    width: 55%;
+    border: solid 2px #7F5539;
+    border-radius: 30px;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.container_ta input{
+    width: 90%;
+    margin: 0 auto;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size:large;
+    border: none;
+    text-decoration: none;
+    text-align: center;
+}
+
+.container_ta p{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size:large;
+    text-align: center;
+    color: #DDB892;
+}
+.aviso{
+    margin-top: 100px;
+    width: 100%;
+    display: flex;
+    gap: 1%;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+.containerResultado{
+    width: 40%;
+    border: solid 2px #7F5539;
+    border-radius: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size:large;
+    text-align: center;
+    color: #7F5539;
+}
+.container_ta,.containerResultado{
+    box-shadow: #7f553938 10px 20px ;
+}
+button{
+    width: 40%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size:large;
+    border-radius: 25px;
+    border: solid 2px;
+    margin: 2%;
+    padding: 10px;
+    font-weight: bold;
+}
+
+button:hover{
+    cursor: pointer;
+    transform:scale(1.1) rotate(360deg) ;
+}
+
+#encriptar, #copiar{
+    background-color: #DDB892;
+    border-color: #7F5539;
+    color: #7F5539;
+}
+#response{
+    width: 100%;
+}
+#copiar{
+    display: none;
+}
+#desencriptar{
+    background-color: #7F5539;
+    border-color: #DDB892;
+    color: #DDB892;
+}
+
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10%;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    border-top:#DDB892 solid 2px;
+    margin-top: 20px;
+    background-color: #7f553938;
+
+}
+footer img{
+    width: 13%;
+}
+.contacto{
+    width: 45%;
+}
+.redContacto{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1%;
+    align-items: center;
+    align-content: center;
+    justify-content:start;
+    margin: 5px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size:large;
+}
+
+.redContacto a{
+    text-decoration: none;
+    color: #7F5539;
+}
+
+.redContacto img{
+    width: 60px;
+}

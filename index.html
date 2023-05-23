@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Courgette&family=DM+Serif+Display&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <h1>Encriptador </h1>
+        <img src="img/aluraoracle-removebg-preview.png" alt="">
+    </header>
+    <main>
+        <div class="containerEncriptador">
+            <div class="container_ta">
+                <input name="textArea" id="textArea" class=" textArea"placeholder="Escribe aqui el texto"></input>
+
+                <div class="aviso">
+                    <lord-icon src="https://cdn.lordicon.com/vyukcgvf.json" trigger="hover" colors="outline:#121331,primary:#d59f80,secondary:#92140c" stroke="55" style="width:50px;height:50px">
+                    </lord-icon>
+                    <p>Solo letras minúsculas y sin acentos</p>
+                </div>
+                <button id="encriptar" onclick="encriptar()">Encriptar</button>
+                <button id="desencriptar" onclick="desencriptar()">Desencriptar</button>
+
+            </div>
+
+            <div class="containerResultado">
+                <lord-icon
+                    src="https://cdn.lordicon.com/ufthrhai.json"
+                    trigger="hover"
+                    colors="outline:#4d2c19,primary:#b26836"
+                    style="width:250px;height:250px" id="icon">
+                    
+                </lord-icon>
+                <p id="NoText"><b>Ningun mensaje fue encontrado</b></p>
+                <p id="response"></p>
+
+                <button id="copiar" onclick="copiar()">¡Copiar!</button>
+            </div>
+
+        </div>
+
+    </main>
+    <footer>
+
+        <div class="contacto">
+            <div class="redContacto">
+                <img src="img/github.png" alt="github">
+                <p><a href="https://github.com/DianaCardona9913">DianaCardona9913</a></p>
+            </div>
+
+            <div class="redContacto">
+                <img src="img/linkedin.png" alt="" id="linkeding">
+                <p><a href="https://www.linkedin.com/in/diana-mar%C3%ADa-cardona-lopera-693114254/">Diana Cardona</a></p>
+
+            </div>
+        </div>
+
+        <img src="img/logo_size-removebg-preview.png" alt="Diana Cardona">
+        
+
+    </footer>
+    <script src="js.js"></script>
+    <script src="https://cdn.lordicon.com/bhenfmcm.js"></script>
+    <script src="https://cdn.lordicon.com/bhenfmcm.js"></script>
+    
+    
+</body>
+</html>
