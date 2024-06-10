@@ -21,24 +21,25 @@ header h1{
 }
 
 .containerEncriptador{
-    width: 90%;
+    width: 70%;
     margin: 0 auto;
     margin-top: 2%;
     background-color: white;
     padding: 20px;
-    display: flex;
+    /*display: flex;*/
     justify-content: center;
     align-content: center;
     gap: 5%;
 }
 .container_ta{
-    width: 55%;
+    width: 100%;
     border: solid 2px #7F5539;
     border-radius: 30px;
     padding: 10px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    margin-bottom: 3%;
 }
 .container_ta input{
     width: 90%;
@@ -66,7 +67,7 @@ header h1{
     justify-content: center;
 }
 .containerResultado{
-    width: 40%;
+    width: 100%;
     border: solid 2px #7F5539;
     border-radius: 30px;
     display: flex;
@@ -115,7 +116,7 @@ button:hover{
 }
 
 footer{
-    display: flex;
+    display: none;
     flex-wrap: wrap;
     gap: 10%;
     align-content: center;
