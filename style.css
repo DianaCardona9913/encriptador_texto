@@ -158,3 +158,18 @@ footer img{
 .redContacto img{
     width: 60px;
 }
+
+@media (max-width: 480px) {
+    header h1 {
+        font-size: xx-large;
+    }
+    header img {
+        width: 35%;
+    }
+    .container_ta {
+        margin-bottom: 10%;
+    }
+    button{
+        width: 46%;
+    }
+}
